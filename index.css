@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.page {
+  background-image: url("Layer-629.png");
+}
+
+.header-section {
+  background-color: white;
+}
+
+.header-inner {
+  height: 90vh;
+  scale: 1;
+  background-image: url("bg-hero.png");
+  background-color: white;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.lose-angles-mountain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
